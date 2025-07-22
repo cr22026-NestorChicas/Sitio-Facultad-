@@ -1,0 +1,230 @@
+/* Configuración base y fuente general */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Distribución principal del cuerpo */
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+
+/* Permite que main crezca para ocupar el espacio disponible */
+main {
+  flex: 1;
+}
+
+/* ============================== */
+/* Encabezado y navegación       */
+/* ============================== */
+
+/* Ajuste general del encabezado */
+header {
+  text-align: center;
+}
+
+/* Banner a pantalla completa */
+.banner {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Barra de navegación con color institucional */
+.nav-bar {
+  background-color: #74121D;
+  padding: 15px 0;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav-bar a {
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  text-decoration: underline;
+}
+
+/* ============================== */
+/* Layout principal con grid     */
+/* ============================== */
+
+/* Define dos columnas: aside y sección principal */
+.layout-grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 20px;
+  padding: 30px;
+}
+
+/* ============================== */
+/* Aside de noticias/avisos      */
+/* ============================== */
+
+.actualizaciones {
+  background-color: #FFDCCC;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.img-aviso {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+/* ============================== */
+/* Objetivos con diseño de cards */
+/* ============================== */
+
+.contenedor-principal h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
+/* Contenedor flexible para tarjetas */
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+/* Diseño de cada tarjeta */
+.card {
+  background-color: #74121D;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+/* Imagen destacada dentro de cada card */
+.card img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.card h4 {
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}
+
+.card p {
+  font-size: 1em;
+}
+
+/* Efecto visual al pasar el mouse */
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* ============================== */
+/* Sección motivacional con video */
+/* ============================== */
+
+.temita {
+  background-color: #161A1D;
+  border-radius: 10px;
+  padding: 30px;
+  color: white;
+  margin-top: 30px;
+}
+
+/* Estructura flexible del contenido */
+.temita-contenido {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Texto a la izquierda */
+.temita-texto {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Video a la derecha */
+.temita-video {
+  flex: 1;
+  min-width: 350px;
+  max-width: 600px;
+  text-align: center;
+}
+
+.temita h3 {
+  font-size: 1.6em;
+  margin-bottom: 15px;
+}
+
+.temita p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+/* ============================== */
+/* Adaptabilidad con Media Queries */
+/* ============================== */
+@media (max-width: 768px) {
+  .inicio {
+    padding: 40px 15px;
+  }
+
+  .contenido {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2.2em;
+  }
+
+  p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 1em;
+  }
+
+  .logo {
+    height: 25px;
+  }
+}
+
+/* ============================== */
+/* Footer con créditos           */
+/* ============================== */
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}

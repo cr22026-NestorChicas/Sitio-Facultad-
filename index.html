@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Configuración básica del documento -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Proyecto Final Web</title>
+
+  <!-- Favicon institucional -->
+  <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+
+  <!-- Estilos principales del sitio -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Encabezado con banner y navegación -->
+  <header>
+    <img src="img/Banner.png" alt="Banner principal" class="banner" />
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="sitio_facultad_Inicio/inicio_facultad.html">Inicio</a></li>
+        <li><a href="sitio_facultad_Facultad/sitio_facultad.html">Facultad</a></li>
+        <li><a href="sitio_facultad_Galeria/galeria.html">Galería</a></li>
+        <li><a href="sitio_facultad_Contacto/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Cuerpo principal del sitio -->
+  <main class="layout-grid">
+    <!-- Sección lateral con actualizaciones -->
+    <aside class="actualizaciones">
+      <h3>Últimas actualizaciones</h3>
+      <img src="img/Ultima.png" alt="Aviso reciente" class="img-aviso" />
+    </aside>
+
+    <!-- Contenido principal con objetivos y bloque motivacional -->
+    <section class="contenedor-principal">
+      <h2>Objetivos de la Licenciatura</h2>
+
+      <!-- Tarjetas de objetivos -->
+      <div class="card-container">
+        <div class="card">
+          <img src="img/Grane.png" alt="Objetivo 1" />
+          <h4>Diseño de Ambientes Educativos</h4>
+          <p>Promueve entornos virtuales que integran tecnología para mejorar el proceso de enseñanza-aprendizaje.</p>
+        </div>
+        <div class="card">
+          <img src="img/Libro.png" alt="Objetivo 2" />
+          <h4>Aplicación de Recursos Tecnológicos</h4>
+          <p>Aplica herramientas y software para facilitar el aprendizaje con metodologías innovadoras.</p>
+        </div>
+        <div class="card">
+          <img src="img/Pro.png" alt="Objetivo 3" />
+          <h4>Proyectos Educativos</h4>
+          <p>Desarrolla soluciones creativas y digitales para responder a las necesidades del contexto educativo.</p>
+        </div>
+      </div>
+
+      <!-- Bloque motivacional con video -->
+      <div class="temita">
+        <div class="temita-contenido">
+          <div class="temita-texto">
+            <h3>¡Descubre el poder de aprender con propósito!</h3>
+            <p>La tecnología educativa transforma cada rincón del aula en un mundo de posibilidades.</p>
+            <p>Con cada herramienta digital que dominas, abres la puerta a nuevas formas de enseñar, aprender y compartir conocimiento.</p>
+            <p>Esta carrera te forma no solo para usar tecnología, sino para impactar vidas con ella.</p>
+          </div>
+          <div class="temita-video">
+            <video src="media/video.mp4" controls width="100%"></video>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página con créditos -->
+  <footer>
+    <p>&copy; 2025 NestorChicas-CR22026. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

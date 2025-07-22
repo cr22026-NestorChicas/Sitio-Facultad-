@@ -1,0 +1,94 @@
+/* Estilos base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fondo institucional */
+.inicio {
+  background-color: #74121d;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Contenido centrado */
+.contenido {
+  max-width: 600px;
+}
+
+/* Título */
+h1 {
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+/* Párrafo */
+p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+/* Botón */
+.btn {
+  background-color: #f2c2da;
+  color: #74121d;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+}
+
+/* Contenedor del logo */
+.logo-container {
+  margin-top: 25px;
+}
+
+/* Logo */
+.logo {
+  height: 35px;
+}
+/* ============================== */
+/* Adaptabilidad con Media Queries */
+/* ============================== */
+@media (max-width: 768px) {
+  .inicio {
+    padding: 40px 15px;
+  }
+
+  .contenido {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2.2em;
+  }
+
+  p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 1em;
+  }
+
+  .logo {
+    height: 25px;
+  }
+}

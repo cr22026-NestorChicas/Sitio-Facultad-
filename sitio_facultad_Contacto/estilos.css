@@ -1,0 +1,117 @@
+/* Estilo general del sitio */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fefefe;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Banner principal */
+.banner {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Mensaje de bienvenida o guía */
+.mensaje {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #ffdccc;
+}
+
+.mensaje h1 {
+  font-size: 2em;
+  color: #74121D;
+}
+
+.mensaje p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Sección con enlaces útiles */
+.enlaces {
+  background-color: #eee;
+  padding: 25px;
+}
+
+.enlaces h2 {
+  color: #74121D;
+  margin-bottom: 15px;
+}
+
+.enlaces ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.enlaces li {
+  margin-bottom: 12px;
+}
+
+.enlaces a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1em;
+}
+
+.enlaces a:hover {
+  color: #74121D;
+  text-decoration: underline;
+}
+
+/* Bloque de contacto institucional */
+.info-contacto {
+  background-color: #e53939;
+  color: white;
+  padding: 20px 30px;
+  font-size: 0.95em;
+}
+
+.info-contacto h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+/* Imagen decorativa y frase final */
+.imagen-final {
+  text-align: center;
+  padding: 30px 10px;
+  background-color: #fafafa;
+}
+
+.imagen-final img {
+  width: 85%;
+  max-width: 1000px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #aaa;
+}
+
+.eslogan {
+  margin-top: 15px;
+  font-size: 1.2em;
+  font-style: italic;
+  color: #74121D;
+}
+
+/* Botón de retorno */
+.volver {
+  text-align: center;
+  padding: 20px;
+  background-color: #74121D;
+}
+
+.volver a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  background-color: #5b0e17;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.volver a:hover {
+  background-color: #a22b3d;
+}
