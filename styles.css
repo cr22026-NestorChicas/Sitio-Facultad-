@@ -170,11 +170,11 @@ header {
 }
 
 /* Video a la derecha */
-.temita-video {
-  flex: 1;
-  min-width: 350px;
-  max-width: 600px;
-  text-align: center;
+.temita-video iframe {
+  width: 100%;
+  height: 315px;
+  border: none;
+  border-radius: 10px;
 }
 
 .temita h3 {
